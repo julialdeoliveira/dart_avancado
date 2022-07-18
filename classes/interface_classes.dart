@@ -8,8 +8,7 @@ void main() {
 }
 
 abstract class Animal {
-  //A classe abstrata faz com que essa classe não possa ser instanciada, apenas extendida e implementada
-
+  //A classe abstrata faz com que essa classe não possa ser instanciada, apenas extendida e implementada :)
   void feed();
   void run(double distance);
 }
@@ -22,7 +21,7 @@ class Dog implements Animal {
 
   @override
   void run(double distance) {
-   print('Cachorro correndo');
+    print('Cachorro correndo');
   }
 }
 
