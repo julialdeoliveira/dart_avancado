@@ -32,7 +32,7 @@ class Aluno {
   String? name;
   int? nota1;
   int? nota2;
-  // int? media = (nota1 + nota2) /2;
+  
 
   Aluno(this.name, {required this.nota1, required this.nota2}); //Construtor com parâmetros nomeados e requeridos
 

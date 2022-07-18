@@ -13,7 +13,7 @@ abstract class Animal {
   void run(double distance);
 }
 
-class Dog implements Animal {
+class Dog implements Animal { //Implements ´usado para implementar uma interface, aí precisamos sobreescrever os métodos  da classe pai
   @override
   void feed() {
     print('Cachorro comendo');

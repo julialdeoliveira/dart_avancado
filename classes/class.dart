@@ -3,8 +3,7 @@
 //   print(animal!.name ?? 'Desconhecido');
 // }
 
-
-void main(){
+void main() {
   // print('oi');
 }
 
@@ -21,7 +20,6 @@ class Animal {
   //Construtor mais simples (Não nomeado)
   Animal(this.name, this.age, this.weight);
 
-
   //métodos
   void run() {
     //Uma das formas de tratar os nullos
@@ -30,8 +28,6 @@ class Animal {
     // }
     // String newString = name ?? 'desconhecido';
     // double result = (age ?? 1) * (weight ?? 1);
-      
-   
 
     print('Correndo...');
   }
