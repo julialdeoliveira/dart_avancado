@@ -11,7 +11,7 @@ Iterable<int> getRange(int start, int stop) sync* { //Sobre demanda, na hora que
     yield index;
   }
 }
-Stream<int> getRangeAsync(int start, int stop) async* {
+Stream<int> getRangeAsync(int start, int stop) async* { //Esse pode esperar para executar
   for (int index = start; index < stop; index++) {
     await Future.delayed(Duration(seconds: 1));
     yield index; //o yield coloca O index no stream
