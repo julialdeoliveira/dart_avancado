@@ -58,7 +58,6 @@ class ProductsPage extends StatelessWidget {
                   ),
                 ],
               ),
-              
             ),
           );
         },

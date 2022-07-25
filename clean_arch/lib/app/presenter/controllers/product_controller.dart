@@ -5,7 +5,7 @@ class ProductController {
   //No nosso controller nós usaremos o UseCase
   //Por isso nós pedimos uma instancia do CONTRATO
   //no construtor, fazendo o DIP.
-  IGetAllProductsUsecase _getAllProcutsUseCase;
+  final IGetAllProductsUsecase _getAllProcutsUseCase;
   ProductController(this._getAllProcutsUseCase) {
     //Aqui no construtor fizemos a chamada do método getAllproducts
     //Para trazer os produtos.
