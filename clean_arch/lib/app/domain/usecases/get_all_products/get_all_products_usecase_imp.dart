@@ -1,7 +1,7 @@
 
-import 'package:clean_arch/app/domain/repositories/get_all_products_repository.dart';
+import '../../repositories/get_all_products_repository.dart';
 
-import '../entities/product_entity.dart';
+import '../../entities/product_entity.dart';
 import 'get_all_products_usecase.dart';
 
 //Contém as regras de negócio da aplicação

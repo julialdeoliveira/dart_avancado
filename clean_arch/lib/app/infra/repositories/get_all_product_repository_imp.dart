@@ -1,5 +1,5 @@
 
-import 'package:clean_arch/app/infra/datasources/get_all_products_datasource.dart';
+import '../datasources/get_all_products_datasource.dart';
 
 import '../../domain/entities/product_entity.dart';
 import '../../domain/repositories/get_all_products_repository.dart';

@@ -6,13 +6,15 @@ class GetAllProductsLocalDatasourceImp implements GetAllProductsDatasource {
   List<ProductEntity> call() {
     return [
       ProductEntity(
+        id: 1,
         name: 'Computador',
         brand: 'hp',
         category: 'eletrônicos',
         price: 5000,
-        qtd: 3,
+        qtd: 3, 
       ),
       ProductEntity(
+        id: 1,
         name: 'Bicicleta',
         brand: 'mona',
         category: 'automóveis',
@@ -20,6 +22,7 @@ class GetAllProductsLocalDatasourceImp implements GetAllProductsDatasource {
         qtd: 3,
       ),
       ProductEntity(
+        id: 2,
         name: 'Fone de ouvido gamer',
         brand: 'hyperX',
         category: 'eletrônicos',

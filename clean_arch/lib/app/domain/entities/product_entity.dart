@@ -2,6 +2,7 @@
 // é uma entidade
 
 class ProductEntity {
+  int id;
   String name;
   String brand;
   String category;
@@ -9,6 +10,7 @@ class ProductEntity {
   int qtd;
 
   ProductEntity({
+    required this.id,
     required this.name,
     required this.brand,
     required this.category,
@@ -39,6 +41,14 @@ class ProductEntity {
       return price;
     }
   }
+
+  // bool getById(id){
+  //   if (id = idController){
+  //     return id;
+  //   }
+  // }
+
+
 
   
 }

@@ -1,6 +1,6 @@
 import 'package:get_it/get_it.dart';
 
-import '../app/domain/usecases/get_all_products_usecase_imp.dart';
+import '../app/domain/usecases/get_all_products/get_all_products_usecase_imp.dart';
 import '../app/infra/datasources/local/get_all_products_local_datasource_imp.dart';
 import '../app/infra/repositories/get_all_product_repository_imp.dart';
 import '../app/presenter/controllers/product_controller.dart';
