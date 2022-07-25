@@ -17,7 +17,7 @@ class GetAllProductsLocalDatasourceImp implements GetAllProductsDatasource {
         brand: 'mona',
         category: 'automóveis',
         price: 300,
-        qtd: 2,
+        qtd: 3,
       ),
       ProductEntity(
         name: 'Fone de ouvido gamer',

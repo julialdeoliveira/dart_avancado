@@ -16,15 +16,15 @@ class ProductEntity {
     required this.qtd,
   });
 
-  bool verifyAvailaibility(qnt){
-    if(qnt > 0){
+  bool verifyAvailaibility(){
+    if(qtd > 0){
       return true;
     }else{
       return false;
     }
   }
 
-  bool verifyPrice(price){
+  bool verifyPrice(){
     if (price > 0){
       return true;
     }else{
