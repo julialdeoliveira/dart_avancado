@@ -7,7 +7,7 @@ import '../../domain/repositories/get_all_products_repository.dart';
 //Aqui será a implementação do repositório, porém não é ele que fará as requisições na API, Firebase, local,
 //essa responsabilidade é dos datasources.
 //A implementação do repositório servirá como uma ponte de certa forma.
-class GetAllProductsRepositoryImp implements GetAllProductsRepository {
+class GetAllProductsRepositoryImp implements IGetAllProductsRepository {
   //Precisará de um contrato do datasource de trazer todos os produtos.
   //Nesse contrato pediremos o construtor.
   //Para lá no controller, passarmos a implementação.

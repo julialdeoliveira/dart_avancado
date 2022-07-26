@@ -1,5 +1,4 @@
 import 'package:clean_arch/app/infra/datasources/local/get_product_by_id_local_datasource_imp.dart';
-import 'package:clean_arch/app/infra/datasources/remote/get_product_by_id_datasource.dart';
 import 'package:clean_arch/app/presenter/controllers/product_controller.dart';
 import 'package:get_it/get_it.dart';
 

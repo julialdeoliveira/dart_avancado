@@ -10,7 +10,7 @@ class GetAllProductsUsecaseImp implements IGetAllProductsUsecase{
   //Aqui PRECISAREMOS de um CONTRATO do repositório para fazer a chamada do método.
   // Além de dependermos da ABSTRAÇÂO e NÂO DE IMPLEMENTAÇÂO, por isso o CONTRATO.
   
-  final GetAllProductsRepository _repository;
+  final IGetAllProductsRepository _repository;
   GetAllProductsUsecaseImp(this._repository);
 
   @override
