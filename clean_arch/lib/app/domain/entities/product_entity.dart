@@ -41,14 +41,5 @@ class ProductEntity {
       return price;
     }
   }
-
-  // bool getById(id){
-  //   if (id = idController){
-  //     return id;
-  //   }
-  // }
-
-
-
   
 }

@@ -1,10 +1,11 @@
-import '../../../domain/entities/product_entity.dart';
-import '../get_all_products_datasource.dart';
 
-class GetAllProductsLocalDatasourceImp implements GetAllProductsDatasource {
+import '../../../domain/entities/product_entity.dart';
+import '../remote/get_product_by_id_datasource.dart';
+
+class GetProductByIdLocalDatasourceImp implements GetProductByIdDatasource{
   @override
-  List<ProductEntity> call() {
-    return [
+  ProductEntity? call(int id) {
+    List<ProductEntity> products = [
       ProductEntity(
         id: 0,
         name: 'Computador',
@@ -30,5 +31,13 @@ class GetAllProductsLocalDatasourceImp implements GetAllProductsDatasource {
         qtd: 5,
       ),
     ];
+
+    for (ProductEntity product in products){
+      if(product.id == id){
+        return product;
+      }
+    }
+    return null;
   }
+  
 }
