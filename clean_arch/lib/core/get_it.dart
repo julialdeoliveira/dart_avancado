@@ -43,7 +43,7 @@ void setupDependencies() {
   getIt.registerSingleton<ProductController>(
     ProductController(
       getIt.get<GetAllProductsUsecaseImp>(),
-      getIt.get<GetProductByIdUsecaseImp>()
+      getIt.get<GetProductByIdUsecaseImp>() 
     ),
   );
 }

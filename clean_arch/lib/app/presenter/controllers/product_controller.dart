@@ -1,7 +1,6 @@
-import 'package:clean_arch/app/domain/usecases/get_product_by_id/get_product_by_id_usecase.dart';
-
 import '../../domain/entities/product_entity.dart';
 import '../../domain/usecases/get_all_products/get_all_products_usecase.dart';
+import '../../domain/usecases/get_product_by_id/get_product_by_id_usecase.dart';
 
 class ProductController {
   //No nosso controller nós usaremos o UseCase
