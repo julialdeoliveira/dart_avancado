@@ -10,7 +10,7 @@ void main() {
       theme: ThemeData(
         primarySwatch: Colors.purple,
       ),
-      home: const ComputersPage(),
+      home: ComputersPage(),
       debugShowCheckedModeBanner: false,
     ),
   );
