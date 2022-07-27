@@ -1,8 +1,8 @@
-import 'package:clean_arch_ex3/app/presenter/controllers/cellphone_controller.dart';
-import 'package:clean_arch_ex3/app/presenter/ui/cellphones_page.dart';
 import 'package:flutter/material.dart';
 
 import '../../../core/get_it.dart';
+import '../controllers/cellphone_controller.dart';
+import 'cellphones_page.dart';
 
 class BrandsPage extends StatelessWidget {
   BrandsPage({Key? key}) : super(key: key);
@@ -13,7 +13,7 @@ class BrandsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text(''),
+        title: const Text('Marcas'),
         actions: [
           IconButton(
             onPressed: () {

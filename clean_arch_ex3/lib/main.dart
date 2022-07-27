@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'app/presenter/ui/cellphones_page.dart';
 
 void main(){
-  // setupDependencies();
+  setupDependencies();
   runApp(MaterialApp(
     theme: ThemeData(
       primarySwatch: Colors.green,

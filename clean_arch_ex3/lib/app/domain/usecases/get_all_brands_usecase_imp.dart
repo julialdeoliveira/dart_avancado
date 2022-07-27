@@ -1,4 +1,3 @@
-
 import '../repositories/get_all_brands_repository.dart';
 import 'get_all_brands_usecase.dart';
 
@@ -9,9 +8,8 @@ GetAllBrandsUsecaseImp(this._repository);
 
   @override
   List<String> call() {
-    List<String> listCellphones = _repository.call();
 
-    return listCellphones;
+    return _repository.call();
   }
   
 }
