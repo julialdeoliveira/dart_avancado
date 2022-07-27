@@ -1,3 +1,4 @@
+import 'package:clean_arch_ex3/app/presenter/ui/brands_page.dart';
 import 'package:clean_arch_ex3/core/get_it.dart';
 import 'package:flutter/material.dart';
 
@@ -8,9 +9,8 @@ void main(){
   runApp(MaterialApp(
     theme: ThemeData(
       primarySwatch: Colors.green,
-
     ),
-    home: CellphonesPage(),
+    home: BrandsPage(),
     debugShowCheckedModeBanner: false,
   ),);
 }

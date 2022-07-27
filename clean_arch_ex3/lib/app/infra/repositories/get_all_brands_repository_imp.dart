@@ -1,15 +1,12 @@
-
-import 'package:clean_arch_ex3/app/infra/datasources/remote/get_all_cellphones_datasource.dart';
-
-import '../../domain/entities/cellphone_entity.dart';
 import '../../domain/repositories/get_all_brands_repository.dart';
+import '../datasources/remote/get_all_brands_datasource.dart';
 
-class GetAllCellphonesRepositoryImp implements IGetAllBrandsRepository{
-final IGetAllCellphonesDatasource _datasource;
-GetAllCellphonesRepositoryImp(this._datasource);
+class GetAllBrandsRepositoryImp implements IGetAllBrandsRepository{
+final IGetAllBrandsDatasource _datasource;
+GetAllBrandsRepositoryImp(this._datasource);
 
   @override
-  List<CellphoneEntity> call() {
+  List<String> call() {
     return _datasource.call();
   }
   

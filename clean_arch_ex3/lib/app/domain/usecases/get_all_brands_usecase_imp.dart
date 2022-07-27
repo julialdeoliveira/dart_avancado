@@ -1,16 +1,15 @@
 
-import 'package:clean_arch_ex3/app/domain/repositories/get_all_brands_repository.dart';
+import '../repositories/get_all_brands_repository.dart';
+import 'get_all_brands_usecase.dart';
 
-import '../entities/cellphone_entity.dart';
-import 'get_all_cellpones_usecase.dart';
 
-class GetAllCellphonesUsecaseImp implements IGetAllCellponesUsecase{
+class GetAllBrandsUsecaseImp implements IGetAllBrandsUsecase{
 final IGetAllBrandsRepository _repository;
-GetAllCellphonesUsecaseImp(this._repository);
+GetAllBrandsUsecaseImp(this._repository);
 
   @override
-  List<CellphoneEntity> call() {
-    List<CellphoneEntity> listCellphones = _repository.call();
+  List<String> call() {
+    List<String> listCellphones = _repository.call();
 
     return listCellphones;
   }
